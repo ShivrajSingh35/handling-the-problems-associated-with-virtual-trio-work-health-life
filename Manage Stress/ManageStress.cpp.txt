@@ -1,0 +1,22 @@
+#include <iostream>
+
+// This class is for analysing the mood and suggest things for relaxtion
+class ManageStress {
+ enum feelings {
+	ANGER,
+	NERVOUS,
+	SAD,
+	GOOD,
+	HAPPY, /* List of feelings is long */
+	OTHER
+ }
+
+ void moodCalc(Event e, Reason r, Feelings f) { /* This function is for finding the mood of a person, based on the event, reason and feelings */ }
+
+ void suggestionBasedOnMood() { /* Suggest things to user for relaxation, based on the mood or feelings of a user */ }
+
+ void suggestBooksAndArticles() { /* Suggest the best books and articles useful for positive attitude and boosting confidance */ }
+
+ void generateAlert() { /* If mood of a person is bad for most of the time, then this function generate alert */ }
+
+} 
