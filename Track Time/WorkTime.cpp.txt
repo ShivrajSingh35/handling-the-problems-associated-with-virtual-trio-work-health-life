@@ -1,0 +1,16 @@
+#include <iostream>
+
+// This class is for analysing data of working hour
+class WorkTime {
+
+ void spendedTimeOnWork() { /* This function is for storing spended time on work */ }
+
+ void assignTimeToWorkActivity(uint_32 time) { /* Assign the spended time to the work activity */ }
+
+ void analyzeWorkTime() { /* Analyze the data of work time. If work time is less than minimum required working hours, call generateAlert */ }
+
+ void compareWorkTime() { /* Compare the data of working hours of different weeks and generate chart of this comparison */ }
+
+ void generateAlert() { /* If person is not spending minimum required time on work, then this function generate alert */ }
+
+} 

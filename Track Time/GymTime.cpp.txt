@@ -1,0 +1,17 @@
+#include <iostream>
+
+// This class is for analysing data of gym hour
+class GymTime {
+
+ void spendedTimeOnGym() { /* This function is for storing spended time on exercise */ }
+
+ void assignTimeToGymActivity(uint_32 time) { /* Assign the spended time to the gym activity */ }
+
+ void analyzeGymTime() { /* Analyze the data of gym time. If gym time is less than minimum exercised time, call generateAlert */ }
+
+ void compareGymTime() { /* Compare the data of gym hours of different weeks and generate chart of this comparison. 
+		            If gym time decrease every week then call generateAlert */ }
+
+ void generateAlert() { /* If person is not spending minimum required time on health, then this function generate alert */ }
+
+} 

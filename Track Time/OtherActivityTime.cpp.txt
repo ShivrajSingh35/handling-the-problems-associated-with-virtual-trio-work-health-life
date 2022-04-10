@@ -1,0 +1,31 @@
+#include <iostream>
+
+// This class is for analysing data of time spend on other activity
+class OtherActivityTime {
+ enum activities {
+	READING,
+	GAMING,
+	OTHER
+ }
+
+ void spendedTimeOnReading() { /* This function is for storing spended time on reading */ }
+
+ void spendedTimeOnGaming() { /* This function is for storing spended time on gaming */ }
+
+ void spendedTimeOnOther() { /* This function is for storing spended time on other */ }
+
+ void assignTimeToWorkActivity(uint_32 time) { /* Assign the spended time to the defined category */ }
+
+ void analyzeReadingTime() { /* Analyze the data of reading time. If person is not spending time on reading, call suggestBooks */ }
+
+ void analyzeGamingTime() { /* Analyze the data of gaming time. If person is spending much time on gaming, call generateAlert */ }
+
+ void compareReadingTime() { /* Compare the data of reading hours of different weeks and generate chart of this comparison */ }
+
+ void compareGamingTime() { /* Compare the data of gaming hours of different weeks and generate chart of this comparison */ }
+
+ void suggestBooks() { /* Suggest few books to the user (list of book is already defined) */ }
+
+ void generateAlert() { /* If person is spending much time on gaming, then this function generate alert */ }
+
+} 
