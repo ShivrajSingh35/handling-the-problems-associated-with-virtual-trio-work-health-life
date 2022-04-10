@@ -1,0 +1,18 @@
+#include <iostream>
+
+// This class is for creating and analysing the personal to-do list
+class PersonalList : ToDoList {
+
+ void scheduleTask(Task t, Time start, Time stop) { /* This function is for scheduling a personal task */ }
+
+ void generateReminder() { /* This function is for generating reminder for a task */ }
+
+ void taskResult() { /* Check if task is completes successfully or not. If task is successful, then  reward is +1 else -1. */ }
+
+ void taskAccuracy() { /* return the accuracy of task completion, accuracy = (how many tasks completed successfully / total tasks)*100 */ }
+
+ void analyseAccuracy() { /* If accuracy < 50%, call generateAlert */ }
+
+ void generateAlert() { /* If accuracy is below 50%, then this function generate alert */ }
+
+} 
